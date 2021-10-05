@@ -30,7 +30,7 @@
 			<a href="#"> View Work Order </a>
 		</div>
 		<a href="#"> Development Progress </a> 
-		<a href="#"> Sair </a> 
+		<a href="#"> Exit </a> 
 	</div>
 	
 	<figure>
