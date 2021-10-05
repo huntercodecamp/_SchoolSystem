@@ -5,8 +5,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title> Development Progress</title>
 	<link rel="stylesheet" href="">
+	<?php 
+	require_once('../_css/styles-front.php');
+	?>
 </head>
 <body>
+	<?php 
+	require_once('menu.php');
+	?>
+	<br>
+	<br>
+	<br>
 	<table width="100%">
 		<tr>
 			<td class="td1"> 
