@@ -1,29 +1,43 @@
-nav {background-color: rgba(0,0,0,1);}
+:root {
+	--menu-bg-color: #ff3344;
+	--menu-bg-color-checked: rgba(0,0,0,.4);
+	--sub:  rgba(255,255,255,.3);
+	--bg-sub: rgba(0,0,0,.3);
+	--anavlabel: rgba(255,255,255,0.1);
+	--nv-color: rgba(255,255,255,1);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "tahoma";
+	
+}
+
+nav {
+	background-color: var(--menu-bg-color);
+
+}
 
 nav a, nav label {
-	background-color: rgba(255,255,255,0.1);
+	background-color: var(--anavlabel);
 }
 
 .dMenu {
 	display: column;
 	position: absolute;
-
 	z-index: 12;
 	top: 60px;
-
-	left: -300px;
-
-	width:270px;
-	height: 80vh;
-	max-width: 270px;
+	left: -300px;	
+	max-width: 350px;
 	min-height: 40px;
-	max-height: 1000px;
+	max-height: 600px;
 	line-height: 40px;
-	background:rgba(50,50,50,1);
+	background: var(--menu-bg-color) ;
 	transition: .2s all;
 	text-align:left;
 	padding: 0px 0px;
-
+	overflow: auto;
 }
 
 nav {
@@ -34,10 +48,13 @@ nav {
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
-	color: rgba(255,255,255,1);
+
+	color: var(--nv-color);
 
 }
+
 #lbequiv {
+
 	width: 60px;
 	line-height: 60px;
 	height: 60px;
@@ -55,10 +72,9 @@ label:hover,
 #bt-equiv:checked ~ label, 
 nav input[id^="bt-*"]:checked ~ label
 {
-	background-color: rgba(100,100,100,0.8);
-
+	background-color: var(--menu-bg-color-checked);
+	
 }
-
 #bt-equiv:checked ~ .dMenu {
 	left: 0px;
 
@@ -79,6 +95,7 @@ nav input[id^="bt-*"]:checked ~ label
 
 
 div[id^=Sub-] {
+
 	display: flex;
 	flex-direction: column;
 	z-index: 0;
@@ -91,7 +108,7 @@ div[id^=Sub-] {
 	left: 0px;
 	overflow:auto;
 	transition: .2s all;
-	background-color: rgba(255,255,255,.3);
+	background-color: var(--sub);
 }
 .SInput-1:checked ~ div[id^=Sub-1],
 .SInput-2:checked ~ div[id^=Sub-2]{
@@ -105,7 +122,7 @@ div[id^=Sub-] {
 	max-height:1000px;
 
 	left: 0px;
-	background-color: rgba(0,0,0,1);
+	background-color: var(--bg-sub);
 
 }
 
@@ -132,14 +149,14 @@ nav h2 {
 	margin-left: 5px;
 }
 
-@media only screen and (min-width: 501px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 320px) {
 	.dMenu {
-		max-width: 400px;
-		width: 400px;
+		max-width: 200px;
+		width: 220px;
 		left: -100%;
 	}
 }
-@media only screen and (min-width: 0px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 320px) {
 	.dMenu {
 		max-width: 100%;
 		width: 100%;

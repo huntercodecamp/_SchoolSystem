@@ -1,10 +1,12 @@
  
 <nav>
 
-	<input type="checkbox" id="bt-equiv" checked >
+	<input type="checkbox" id="bt-equiv">
 	<label for="bt-equiv" id="lbequiv"> &equiv; </label>
+	
 	<div class="dMenu">
 		<a href="index.php"> Home </a>
+		
 		<input id="bt-register" type="checkbox" name="subs" class="SInput-1"  >
 		<label for="bt-register" class="LbSubMenu-1">
 			Registers
@@ -19,6 +21,7 @@
 			<a href="#"> Register Product </a>
 			<a href="#"> Register Work Order </a>
 		</div>
+
 		<input id="visualizar" type="checkbox" name="subs" class="SInput-2" >
 		<label for="visualizar" class="LbSubMenu-2"> View </label>
 		<div id="Sub-2"  >
