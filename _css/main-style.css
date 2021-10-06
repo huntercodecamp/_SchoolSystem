@@ -1,10 +1,17 @@
+:root {
+	--menu-bg-color: #000;
+
+
+}
+
 * {
+	;
 	margin: 0;
 	padding: 0;
 	font-family: "tahoma";
 	
 }
-nav {background-color: rgba(0,0,0,1);}
+nav {background-color: --menu-bg-color;}
 nav a, nav label {
 	background-color: rgba(255,255,255,0.1);
 }
@@ -25,14 +32,14 @@ nav a, nav label {
 	min-height: 40px;
 	max-height: 600px;
 	line-height: 40px;
-	background:rgba(50,50,50,1);
-	transition: .2s all;
+	background:--BGCOLOR- );
+transition: .2s all;
 
-	text-align:left;
+text-align:left;
 
-	padding: 0px 0px;
+padding: 0px 0px;
 
-	overflow: auto;
+overflow: auto;
 }
 
 nav {

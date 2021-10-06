@@ -4,7 +4,7 @@
 	<input type="checkbox" id="bt-equiv" checked >
 	<label for="bt-equiv" id="lbequiv"> &equiv; </label>
 	<div class="dMenu">
-		<a href="panel.php"> Home </a>
+		<a href="index.php"> Home </a>
 		<input id="bt-register" type="checkbox" name="subs" class="SInput-1"  >
 		<label for="bt-register" class="LbSubMenu-1">
 			Registers
@@ -33,8 +33,9 @@
 	</div>
 	
 	<figure>
-		<img src="_imgs/logo.jpg" alt="logo" />
+		<img src="../_imgs/logo.jpg" alt="logo" />
 	</figure>
-	<h2> School System</h2>
+
+	<h2> <?php echo NOME; ?></h2>
 	
 </nav>
