@@ -1,9 +1,18 @@
+
+<?php 
+include('../vars.php'); 
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title> Development Progress</title>
+	<title> 
+		<?php echo NOME; ?>
+		| Development Progress
+
+	</title>
 	<link rel="stylesheet" href="">
 	<?php 
 	require_once('../_css/styles-front.php');
