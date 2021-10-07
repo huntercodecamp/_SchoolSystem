@@ -8,14 +8,10 @@
 	<title>
 		<?php echo NOME; ?> 
 		| Summary 
-
 	</title>
+
 	<?php 
-
-
 	require_once('../_css/styles.php'); 
-
-
 	?>
 	<style rel=stylesheet type="text/css">
 	
@@ -25,7 +21,9 @@
 
 
 <body>
-	<?php require_once('menu.php'); ?>
-	
+	<div id="container">
+
+		<?php require_once('menu.php'); ?>
+	</div>
 </body>
 </html>
