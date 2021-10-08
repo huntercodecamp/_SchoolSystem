@@ -1,7 +1,8 @@
 <?php require_once('top.php'); ?>
-<div id="container">
 
-	<?php require_once('menu.php'); ?>
+
+<?php require_once('menu.php'); ?>
+<div id="container">
 
 </div>
 <?php require_once('footer.php'); ?>
