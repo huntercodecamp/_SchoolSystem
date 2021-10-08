@@ -36,7 +36,7 @@
 	</div>
 	
 	<figure>
-		<img src="../_imgs/logo.jpg" alt="logo" />
+		<img id="logo1" src="../_imgs/logo.jpg" alt="logo" />
 	</figure>
 
 	<h2> <?php echo NOME; ?></h2>

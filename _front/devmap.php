@@ -6,9 +6,10 @@ include('../vars.php');
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title> 
+	<?php 
+	include('header.php');
+	?>
+	<title>
 		<?php echo NOME; ?>
 		| Development Progress
 
@@ -25,7 +26,11 @@ include('../vars.php');
 	<br>
 	<br>
 	<br>
-	<table width="100%">
+	<table width="100%" >
+		<tr id="line1">
+			<th class="td1">Tarefa</th>
+			<th class="td2">Status</th>
+		</tr>
 		<tr>
 			<td class="td1"> 
 
@@ -33,30 +38,69 @@ include('../vars.php');
 
 			</td>
 			<td class="td2"> 
-				<h3> status </h3>
+				
 				<label for=""> OK</label>
 
 			</td>
 		</tr>
 		<tr>
-			<td class="td1">  </td>
-			<td class="td2">  </td>
+			<td class="td1"> Cadastro de usuário </td>
+			<td class="td2">
+				
+				<label for=""> 
+					stop
+				</label>
+			</td>
 		</tr>
 		<tr>
-			<td class="td1"></td>
-			<td class="td2"></td>
-		</tr>
-		<tr>
-			<td class="td1"></td>
-			<td class="td2"></td>
-		</tr>
-		<tr>
-			<td class="td1"></td>
-			<td class="td2"></td>
-		</tr>
+			<td class="td1">
+				<label for="">
+					x
+				</label></td>
+				<td class="td2">
+					<label for="">
+						
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="td1">
+					<label for="">
+						x
+					</label>
+				</td>
+				<td class="td2"></td>
+			</tr>
+
+			<tr>
+				<td class="td1">,
+					<label for="">
+						x
+					</label>
+				</td>
+				<td class="td2"></td>
+			</tr>
+
+			<tr>
+				<td class="td1">,
+					<label for="">
+						x
+					</label>
+				</td>
+				<td class="td2"></td>
+			</tr>
+
+			<tr>
+				<td class="td1">,
+					<label for="">
+						x
+					</label>
+				</td>
+				<td class="td2"></td>
+			</tr>
 
 
 
-	</table>
-</body>
-</html>
+		</table>
+	</body>
+	</html>
