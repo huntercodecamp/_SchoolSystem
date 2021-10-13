@@ -21,7 +21,9 @@ nav {
 }
 
 nav a, nav label {
+
 	background-color: var(--anavlabel);
+	
 }
 
 .dMenu {

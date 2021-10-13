@@ -11,8 +11,11 @@
 
 	<?php 
 	require_once('../_css/styles.php'); 
+
 	?>
-	<style rel=stylesheet type="text/css">
 	
-</style>
 </head>
+
+<body>
+	
+	<?php require_once('../_front/menu.php');?>

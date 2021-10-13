@@ -12,7 +12,7 @@
 			Registers
 		</label>
 		<div id="Sub-1 " >
-			<a href="#"> Register Collaborator </a>
+			<a href="RegisterCollaborator.php"> Register Collaborator </a>
 			<a href="#"> Register Room </a>
 			<a href="RegisterEquipment.php"> Register Equipment </a>
 			<a href="RegisterClient.php"> Register Client </a>

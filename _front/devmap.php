@@ -1,106 +1,137 @@
-
 <?php 
-include('../vars.php'); 
+require_once('top.php'); 
+require_once('menu.php'); 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-	<?php 
-	include('header.php');
-	?>
-	<title>
-		<?php echo NOME; ?>
-		| Development Progress
+<br>
+<br>
+<br>
+<table width="100%" >
 
-	</title>
-	<link rel="stylesheet" href="">
-	<?php 
-	require_once('../_css/styles-front.php');
-	?>
-</head>
-<body>
-	<?php 
-	require_once('menu.php');
-	?>
-	<br>
-	<br>
-	<br>
-	<table width="100%" >
-		<tr id="line1">
-			<th class="td1">Tarefa</th>
-			<th class="td2">Status</th>
-		</tr>
-		<tr>
-			<td class="td1"> 
+	<tr id="line1">
 
-				<label for=""> Menu </label> 
+		<th class="td1">
+			Tarefa
+		</th>
+		<th class="td2">
+			Status
+		</th>
+	</tr>
 
-			</td>
-			<td class="td2"> 
+	<tr>
+
+		<td class="td1"> 
+
+			<label for=""> 
+				Menu 
+			</label> 
+
+		</td>
+
+		<td class="td2"> 
+
+			<label for=""> 
+				OK
+			</label>
+
+		</td>
+
+	</tr>
+	<tr>
+
+		<td class="td1"> 
+			Cadastro de usuário
+		</td>
+
+		<td class="td2">
+
+			<label for=""> 
+				stop
+			</label>
+
+		</td>
+
+	</tr>
+	<tr>
+
+		<td class="td1">
+
+			<label for="">
 				
-				<label for=""> OK</label>
+			</label>
 
-			</td>
-		</tr>
-		<tr>
-			<td class="td1"> Cadastro de usuário </td>
-			<td class="td2">
-				
-				<label for=""> 
-					stop
-				</label>
-			</td>
-		</tr>
-		<tr>
-			<td class="td1">
-				<label for="">
-					x
-				</label></td>
-				<td class="td2">
-					<label for="">
-						
-					</label>
-				</td>
-			</tr>
-			<tr>
-				<td class="td1">
-					<label for="">
-						x
-					</label>
-				</td>
-				<td class="td2"></td>
-			</tr>
+		</td>
 
-			<tr>
-				<td class="td1">,
-					<label for="">
-						x
-					</label>
-				</td>
-				<td class="td2"></td>
-			</tr>
+		<td class="td2">
 
-			<tr>
-				<td class="td1">,
-					<label for="">
-						x
-					</label>
-				</td>
-				<td class="td2"></td>
-			</tr>
+			<label for="">
 
-			<tr>
-				<td class="td1">,
-					<label for="">
-						x
-					</label>
-				</td>
-				<td class="td2"></td>
-			</tr>
+			</label>
+		</td>
 
+	</tr>
+	<tr>
 
+		<td class="td1">
 
-		</table>
-	</body>
-	</html>
+			<label for="">
+				x
+			</label>
+		</td>
+
+		<td class="td2">
+			
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="td1">
+
+			<label for="">
+				x
+			</label>
+
+		</td>
+
+		<td class="td2">
+			
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="td1">
+
+			<label for="">
+				x
+			</label>
+
+		</td>
+
+		<td class="td2">
+
+		</td>
+
+	</tr>
+
+	<tr>
+
+		<td class="td1">
+			<label for="">
+				x
+			</label>
+		</td>
+
+		<td class="td2">
+
+		</td>
+
+	</tr>
+
+</table>
+<?php 
+require_once('footer.php'); 
+?>

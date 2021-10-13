@@ -1,4 +1,5 @@
 :root {
+
 	--menu-bg-color: #ff0000;
 	--menu-bg-color-checked: rgba(0,0,0,.4);
 	--sub:  rgba(255,255,255,.3);
@@ -6,32 +7,57 @@
 	--anavlabel: rgba(255,255,255,0.1);
 	--nv-color: rgba(255,255,255,1);
 	--menu-links: rgba(255,255,255,1);
+
 }
 
 .td1{
+
 	border-right: 1px solid black;
-	
 
 }
 .td1,
 .td2{
+
 	border-bottom: 1px solid black;
 	width: 50%;
 
 }
 .td1 > label,.td2 > label{
+
 	line-height: 50px;
 	
 }
-/*
-#line1 {
-	position: fixed;
-	z-index: 10;
-	background-color: var(--menu-bg-color);
-	width: 100%;
-}
-*/
 
 #logo1 {
+	
 	border-radius: 50%;
+
+}
+
+.column-1]{
+
+	display: flex ;
+	flex-direction: row;
+	width: 90%;
+	margin:50px  0 auto;
+	background-color: var(--menu-bg-color);
+
+
+}
+.column-1 > ul{
+	
+	width: 30%;
+	list-style: none;
+	text-align: center;
+	
+}
+
+.column-1 a{
+	color: var(--nv-color);
+	text-decoration: none;
+}
+[class^=article-]{
+
+	background-color: red;
+
 }
