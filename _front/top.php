@@ -3,19 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include('header.php'); ?>
-	<title>
-		<?php echo NOME; ?> 
-		| Summary 
-	</title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	
 
 	<?php 
 	require_once('../_css/styles.php'); 
 
 	?>
 	
-</head>
-
-<body>
-	
-	<?php require_once('../_front/menu.php');?>

@@ -2,137 +2,146 @@
 require_once('top.php'); 
 
 ?>
+<meta name="description" content="Shool Management System">
+<meta name="keywords" content="Shool,  Management, System">
+<meta name="author" content="Fernando Silveira">
 
-<br>
-<br>
-<br>
-<table width="100%" >
+<title>
+	<?php echo NOME; ?> | Dev Map
+</title>
+</head>
 
-	<tr id="line1">
+<body>
+	
+	<?php require_once('menu.php');?>
 
-		<th class="td1">
-			Tarefa
-		</th>
-		<th class="td2">
-			Status
-		</th>
-	</tr>
+	<table width="100%" >
 
-	<tr>
+		<tr id="line1">
 
-		<td class="td1"> 
+			<th class="td1">
+				Tarefa
+			</th>
+			<th class="td2">
+				Status
+			</th>
+		</tr>
 
-			<label for=""> 
-				Menu 
-			</label> 
+		<tr>
 
-		</td>
+			<td class="td1"> 
 
-		<td class="td2"> 
+				<label for=""> 
+					Menu 
+				</label> 
 
-			<label for=""> 
-				OK
-			</label>
+			</td>
 
-		</td>
+			<td class="td2"> 
 
-	</tr>
-	<tr>
+				<label for=""> 
+					OK
+				</label>
 
-		<td class="td1"> 
-			Cadastro de usuário
-		</td>
+			</td>
 
-		<td class="td2">
+		</tr>
+		<tr>
 
-			<label for=""> 
-				stop
-			</label>
+			<td class="td1"> 
+				Cadastro de usuário
+			</td>
 
-		</td>
+			<td class="td2">
 
-	</tr>
-	<tr>
+				<label for=""> 
+					stop
+				</label>
 
-		<td class="td1">
+			</td>
 
-			<label for="">
-				
-			</label>
+		</tr>
+		<tr>
 
-		</td>
+			<td class="td1">
 
-		<td class="td2">
+				<label for="">
 
-			<label for="">
+				</label>
 
-			</label>
-		</td>
+			</td>
 
-	</tr>
-	<tr>
+			<td class="td2">
 
-		<td class="td1">
+				<label for="">
 
-			<label for="">
-				x
-			</label>
-		</td>
+				</label>
+			</td>
 
-		<td class="td2">
-			
-		</td>
+		</tr>
+		<tr>
 
-	</tr>
+			<td class="td1">
 
-	<tr>
+				<label for="">
+					x
+				</label>
+			</td>
 
-		<td class="td1">
+			<td class="td2">
 
-			<label for="">
-				x
-			</label>
+			</td>
 
-		</td>
+		</tr>
 
-		<td class="td2">
-			
-		</td>
+		<tr>
 
-	</tr>
+			<td class="td1">
 
-	<tr>
+				<label for="">
+					x
+				</label>
 
-		<td class="td1">
+			</td>
 
-			<label for="">
-				x
-			</label>
+			<td class="td2">
 
-		</td>
+			</td>
 
-		<td class="td2">
+		</tr>
 
-		</td>
+		<tr>
 
-	</tr>
+			<td class="td1">
 
-	<tr>
+				<label for="">
+					x
+				</label>
 
-		<td class="td1">
-			<label for="">
-				x
-			</label>
-		</td>
+			</td>
 
-		<td class="td2">
+			<td class="td2">
 
-		</td>
+			</td>
 
-	</tr>
+		</tr>
 
-</table>
+		<tr>
 
-<?php 
-require_once('footer.php'); 
-?>
+			<td class="td1">
+				<label for="">
+					x
+				</label>
+			</td>
+
+			<td class="td2">
+
+			</td>
+
+		</tr>
+
+	</table>
+
+	<?php 
+	require_once('footer.php'); 
+	?>
