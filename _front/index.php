@@ -11,8 +11,12 @@ require_once('top.php');
 </title>
 </head>
 
-<body>
-	
+<body onload="redirect()">
+	<script>
+		function redirect(){
+			window.location.href = "panel.php";
+		}
+	</script>
 	
 	<?php require_once('menu.php');?>
 
